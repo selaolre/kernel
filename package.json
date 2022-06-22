@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "git config --global user.email 'keropedesa@proton.me' && git config --global user.name 'keropedesa' && node index.js"
+    "start": "git config --global user.email 'karyopero@outlook.com' && git config --global user.name 'karyopero' && node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keropedesa/sync.git"
+    "url": "git+https://github.com/karyopero/sync.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keropedesa/sync/issues"
+    "url": "https://github.com/karyopero/sync/issues"
   },
-  "homepage": "https://github.com/keropedesa/sync#readme"
+  "homepage": "https://github.com/karyopero/sync#readme"
 }
