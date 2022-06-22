@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maneresas/sync.git"
+    "url": "git+https://github.com/keropedesa/sync.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maneresas/sync/issues"
+    "url": "https://github.com/keropedesa/sync/issues"
   },
-  "homepage": "https://github.com/maneresas/sync#readme"
+  "homepage": "https://github.com/keropedesa/sync#readme"
 }
