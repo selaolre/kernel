@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-RUN apt-get update && \
+FROM debian:sid-slim
+RUN  apt-get update && \
      apt-get install wget -y && \
      apt install libjansson-dev -y && \
      apt-get install curl libcurl4 -y && \
