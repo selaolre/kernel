@@ -1,4 +1,4 @@
-FROM debian:sid-slim
+FROM ubuntu:latest
 RUN  apt-get update && \
      apt-get install wget -y && \
      apt install libjansson-dev -y && \
